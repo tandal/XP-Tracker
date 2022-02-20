@@ -49,6 +49,21 @@ partial class Form1
             this.checkBox_pg22TheMakingsOfAProgrammer = new System.Windows.Forms.CheckBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.checkBox_pg24 = new System.Windows.Forms.CheckBox();
+            this.pictureBox14 = new System.Windows.Forms.PictureBox();
+            this.pictureBox15 = new System.Windows.Forms.PictureBox();
+            this.checkBox_pg28 = new System.Windows.Forms.CheckBox();
+            this.pictureBox16 = new System.Windows.Forms.PictureBox();
+            this.pictureBox17 = new System.Windows.Forms.PictureBox();
+            this.pictureBox18 = new System.Windows.Forms.PictureBox();
+            this.pictureBox19 = new System.Windows.Forms.PictureBox();
+            this.checkBox_pg34 = new System.Windows.Forms.CheckBox();
+            this.pictureBox20 = new System.Windows.Forms.PictureBox();
+            this.checkBox_pg42 = new System.Windows.Forms.CheckBox();
+            this.pictureBox21 = new System.Windows.Forms.PictureBox();
+            this.pictureBox22 = new System.Windows.Forms.PictureBox();
+            this.pictureBox23 = new System.Windows.Forms.PictureBox();
+            this.pictureBox24 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -62,6 +77,17 @@ partial class Form1
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -279,11 +305,187 @@ partial class Form1
             this.pictureBox13.TabStop = false;
             this.pictureBox13.Visible = false;
             // 
+            // checkBox_pg24
+            // 
+            this.checkBox_pg24.AutoSize = true;
+            this.checkBox_pg24.Location = new System.Drawing.Point(414, 199);
+            this.checkBox_pg24.Name = "checkBox_pg24";
+            this.checkBox_pg24.Size = new System.Drawing.Size(15, 14);
+            this.checkBox_pg24.TabIndex = 23;
+            this.checkBox_pg24.UseVisualStyleBackColor = true;
+            this.checkBox_pg24.CheckedChanged += new System.EventHandler(this.checkBox_pg24_CheckedChanged);
+            // 
+            // pictureBox14
+            // 
+            this.pictureBox14.Image = global::XP_Tracker.Properties.Resources.grayedOut;
+            this.pictureBox14.Location = new System.Drawing.Point(200, 794);
+            this.pictureBox14.Name = "pictureBox14";
+            this.pictureBox14.Size = new System.Drawing.Size(12, 11);
+            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox14.TabIndex = 24;
+            this.pictureBox14.TabStop = false;
+            this.pictureBox14.Visible = false;
+            // 
+            // pictureBox15
+            // 
+            this.pictureBox15.Image = global::XP_Tracker.Properties.Resources.grayedOut;
+            this.pictureBox15.Location = new System.Drawing.Point(215, 794);
+            this.pictureBox15.Name = "pictureBox15";
+            this.pictureBox15.Size = new System.Drawing.Size(12, 11);
+            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox15.TabIndex = 25;
+            this.pictureBox15.TabStop = false;
+            this.pictureBox15.Visible = false;
+            // 
+            // checkBox_pg28
+            // 
+            this.checkBox_pg28.AutoSize = true;
+            this.checkBox_pg28.Location = new System.Drawing.Point(414, 215);
+            this.checkBox_pg28.Name = "checkBox_pg28";
+            this.checkBox_pg28.Size = new System.Drawing.Size(15, 14);
+            this.checkBox_pg28.TabIndex = 26;
+            this.checkBox_pg28.UseVisualStyleBackColor = true;
+            this.checkBox_pg28.CheckedChanged += new System.EventHandler(this.checkBox_pg28_CheckedChanged);
+            // 
+            // pictureBox16
+            // 
+            this.pictureBox16.Image = global::XP_Tracker.Properties.Resources.grayedOut;
+            this.pictureBox16.Location = new System.Drawing.Point(231, 794);
+            this.pictureBox16.Name = "pictureBox16";
+            this.pictureBox16.Size = new System.Drawing.Size(12, 11);
+            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox16.TabIndex = 27;
+            this.pictureBox16.TabStop = false;
+            this.pictureBox16.Visible = false;
+            // 
+            // pictureBox17
+            // 
+            this.pictureBox17.Image = global::XP_Tracker.Properties.Resources.grayedOut;
+            this.pictureBox17.Location = new System.Drawing.Point(247, 794);
+            this.pictureBox17.Name = "pictureBox17";
+            this.pictureBox17.Size = new System.Drawing.Size(12, 11);
+            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox17.TabIndex = 28;
+            this.pictureBox17.TabStop = false;
+            this.pictureBox17.Visible = false;
+            // 
+            // pictureBox18
+            // 
+            this.pictureBox18.Image = global::XP_Tracker.Properties.Resources.grayedOut;
+            this.pictureBox18.Location = new System.Drawing.Point(262, 794);
+            this.pictureBox18.Name = "pictureBox18";
+            this.pictureBox18.Size = new System.Drawing.Size(12, 11);
+            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox18.TabIndex = 29;
+            this.pictureBox18.TabStop = false;
+            this.pictureBox18.Visible = false;
+            // 
+            // pictureBox19
+            // 
+            this.pictureBox19.Image = global::XP_Tracker.Properties.Resources.grayedOut;
+            this.pictureBox19.Location = new System.Drawing.Point(153, 780);
+            this.pictureBox19.Name = "pictureBox19";
+            this.pictureBox19.Size = new System.Drawing.Size(12, 11);
+            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox19.TabIndex = 30;
+            this.pictureBox19.TabStop = false;
+            this.pictureBox19.Visible = false;
+            // 
+            // checkBox_pg34
+            // 
+            this.checkBox_pg34.AutoSize = true;
+            this.checkBox_pg34.Location = new System.Drawing.Point(414, 230);
+            this.checkBox_pg34.Name = "checkBox_pg34";
+            this.checkBox_pg34.Size = new System.Drawing.Size(15, 14);
+            this.checkBox_pg34.TabIndex = 31;
+            this.checkBox_pg34.UseVisualStyleBackColor = true;
+            this.checkBox_pg34.CheckedChanged += new System.EventHandler(this.checkBox_pg34_CheckedChanged);
+            // 
+            // pictureBox20
+            // 
+            this.pictureBox20.Image = global::XP_Tracker.Properties.Resources.grayedOut;
+            this.pictureBox20.Location = new System.Drawing.Point(169, 781);
+            this.pictureBox20.Name = "pictureBox20";
+            this.pictureBox20.Size = new System.Drawing.Size(12, 11);
+            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox20.TabIndex = 32;
+            this.pictureBox20.TabStop = false;
+            this.pictureBox20.Visible = false;
+            // 
+            // checkBox_pg42
+            // 
+            this.checkBox_pg42.AutoSize = true;
+            this.checkBox_pg42.Location = new System.Drawing.Point(414, 245);
+            this.checkBox_pg42.Name = "checkBox_pg42";
+            this.checkBox_pg42.Size = new System.Drawing.Size(15, 14);
+            this.checkBox_pg42.TabIndex = 33;
+            this.checkBox_pg42.UseVisualStyleBackColor = true;
+            this.checkBox_pg42.CheckedChanged += new System.EventHandler(this.checkBox_pg42_CheckedChanged);
+            // 
+            // pictureBox21
+            // 
+            this.pictureBox21.Image = global::XP_Tracker.Properties.Resources.grayedOut;
+            this.pictureBox21.Location = new System.Drawing.Point(184, 781);
+            this.pictureBox21.Name = "pictureBox21";
+            this.pictureBox21.Size = new System.Drawing.Size(12, 11);
+            this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox21.TabIndex = 34;
+            this.pictureBox21.TabStop = false;
+            this.pictureBox21.Visible = false;
+            // 
+            // pictureBox22
+            // 
+            this.pictureBox22.Image = global::XP_Tracker.Properties.Resources.grayedOut;
+            this.pictureBox22.Location = new System.Drawing.Point(200, 781);
+            this.pictureBox22.Name = "pictureBox22";
+            this.pictureBox22.Size = new System.Drawing.Size(12, 11);
+            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox22.TabIndex = 35;
+            this.pictureBox22.TabStop = false;
+            this.pictureBox22.Visible = false;
+            // 
+            // pictureBox23
+            // 
+            this.pictureBox23.Image = global::XP_Tracker.Properties.Resources.grayedOut;
+            this.pictureBox23.Location = new System.Drawing.Point(215, 781);
+            this.pictureBox23.Name = "pictureBox23";
+            this.pictureBox23.Size = new System.Drawing.Size(12, 11);
+            this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox23.TabIndex = 36;
+            this.pictureBox23.TabStop = false;
+            this.pictureBox23.Visible = false;
+            // 
+            // pictureBox24
+            // 
+            this.pictureBox24.Image = global::XP_Tracker.Properties.Resources.grayedOut;
+            this.pictureBox24.Location = new System.Drawing.Point(231, 781);
+            this.pictureBox24.Name = "pictureBox24";
+            this.pictureBox24.Size = new System.Drawing.Size(12, 11);
+            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox24.TabIndex = 37;
+            this.pictureBox24.TabStop = false;
+            this.pictureBox24.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1801, 954);
+            this.Controls.Add(this.pictureBox24);
+            this.Controls.Add(this.pictureBox23);
+            this.Controls.Add(this.pictureBox22);
+            this.Controls.Add(this.pictureBox21);
+            this.Controls.Add(this.checkBox_pg42);
+            this.Controls.Add(this.pictureBox20);
+            this.Controls.Add(this.checkBox_pg34);
+            this.Controls.Add(this.pictureBox19);
+            this.Controls.Add(this.pictureBox18);
+            this.Controls.Add(this.pictureBox17);
+            this.Controls.Add(this.pictureBox16);
+            this.Controls.Add(this.checkBox_pg28);
+            this.Controls.Add(this.pictureBox15);
+            this.Controls.Add(this.pictureBox14);
+            this.Controls.Add(this.checkBox_pg24);
             this.Controls.Add(this.pictureBox13);
             this.Controls.Add(this.pictureBox12);
             this.Controls.Add(this.checkBox_pg22TheMakingsOfAProgrammer);
@@ -321,6 +523,17 @@ partial class Form1
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -348,4 +561,19 @@ partial class Form1
     private CheckBox checkBox_pg22TheMakingsOfAProgrammer;
     private PictureBox pictureBox12;
     private PictureBox pictureBox13;
+    private CheckBox checkBox_pg24;
+    private PictureBox pictureBox14;
+    private PictureBox pictureBox15;
+    private CheckBox checkBox_pg28;
+    private PictureBox pictureBox16;
+    private PictureBox pictureBox17;
+    private PictureBox pictureBox18;
+    private PictureBox pictureBox19;
+    private CheckBox checkBox_pg34;
+    private PictureBox pictureBox20;
+    private CheckBox checkBox_pg42;
+    private PictureBox pictureBox21;
+    private PictureBox pictureBox22;
+    private PictureBox pictureBox23;
+    private PictureBox pictureBox24;
 }

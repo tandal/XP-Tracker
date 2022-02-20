@@ -106,4 +106,74 @@ public partial class Form1 : Form
             subtractXpEarned(50);
         }
     }
+
+    private void checkBox_pg24_CheckedChanged(object sender, EventArgs e)
+    {
+        if (checkBox_pg24.Checked == true)
+        {
+            pictureBox14.Visible = true;
+            pictureBox15.Visible = true;
+            addXpEarned(50);
+        }
+        else
+        {
+            pictureBox14.Visible = false;
+            pictureBox15.Visible = false;
+            subtractXpEarned(50);
+        }
+    }
+
+    private void checkBox_pg28_CheckedChanged(object sender, EventArgs e)
+    {
+        if (checkBox_pg28.Checked == true)
+        {
+            pictureBox16.Visible = true;
+            pictureBox17.Visible = true;
+            pictureBox18.Visible = true;
+            pictureBox19.Visible = true;
+            addXpEarned(100);
+        }
+        else
+        {
+            pictureBox16.Visible = false;
+            pictureBox17.Visible = false;
+            pictureBox18.Visible = false;
+            pictureBox19.Visible = false;
+            subtractXpEarned(100);
+        }
+    }
+
+    private void checkBox_pg34_CheckedChanged(object sender, EventArgs e)
+    {
+        if (checkBox_pg34.Checked == true)
+        {
+            pictureBox20.Visible = true;
+            addXpEarned(25);
+        }
+        else
+        {
+            pictureBox20.Visible = false;
+            subtractXpEarned(25);
+        }
+    }
+
+    private void checkBox_pg42_CheckedChanged(object sender, EventArgs e)
+    {
+        if (checkBox_pg42.Checked == true)
+        {
+            pictureBox22.Visible = true;
+            pictureBox21.Visible = true;
+            pictureBox23.Visible = true;
+            pictureBox24.Visible = true;
+            addXpEarned(100);
+        }
+        else
+        {
+            pictureBox22.Visible = false;
+            pictureBox21.Visible = false;
+            pictureBox23.Visible = false;
+            pictureBox24.Visible = false;
+            subtractXpEarned(100);
+        }
+    }
 }
