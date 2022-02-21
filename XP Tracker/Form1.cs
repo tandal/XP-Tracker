@@ -1,3 +1,4 @@
+using System.IO;
 namespace XP_Tracker;
 
 public partial class Form1 : Form
@@ -9,8 +10,11 @@ public partial class Form1 : Form
 
     private void Form1_Load(object sender, EventArgs e)
     {
-
+        
     }
+    string savedFormData = "save.txt";
+    
+    
 
     int xpEarned = 25;
     private void addXpEarned(int value)
@@ -31,13 +35,15 @@ public partial class Form1 : Form
         {
             pictureBox2.Visible = true;
             addXpEarned(25);
+            File.WriteAllText(savedFormData, checkBox_pg10.Checked.ToString());
         }
         else 
         {
             pictureBox2.Visible = false;
             subtractXpEarned(25);
+            File.WriteAllText(savedFormData, checkBox_pg10.Checked.ToString());
         }
-            
+
     }
 
     private void checkBox_pg14_CheckedChanged(object sender, EventArgs e)
@@ -48,6 +54,7 @@ public partial class Form1 : Form
             pictureBox4.Visible = true;
             pictureBox6.Visible = true;
             addXpEarned(75);
+            File.WriteAllText(savedFormData, checkBox_pg14.Checked.ToString());
         }
         else
         {
@@ -55,6 +62,7 @@ public partial class Form1 : Form
             pictureBox4.Visible = false;
             pictureBox6.Visible = false;
             subtractXpEarned(75);
+            File.WriteAllText(savedFormData, checkBox_pg14.Checked.ToString());
         }
     }
 
