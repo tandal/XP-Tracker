@@ -6,4 +6,4 @@ This is a work in progress.
 
 TODO:
 - Add the remaining objects to the form.
-- Come up with a way to save so when you open the application again your progress isn't lost.
+- ~~Come up with a way to save so when you open the application again your progress isn't lost.~~ Implemented solution 2/22/2022
