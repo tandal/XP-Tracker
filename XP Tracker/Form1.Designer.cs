@@ -267,7 +267,7 @@ partial class Form1
             // pictureBox11
             // 
             this.pictureBox11.Image = global::XP_Tracker.Properties.Resources.The_C__Player_s_Guide___XPTracker_page_002;
-            this.pictureBox11.Location = new System.Drawing.Point(868, 12);
+            this.pictureBox11.Location = new System.Drawing.Point(871, -2);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(921, 930);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -523,6 +523,7 @@ partial class Form1
             this.ForeColor = System.Drawing.Color.Transparent;
             this.Name = "Form1";
             this.Text = "XP Tracker";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
