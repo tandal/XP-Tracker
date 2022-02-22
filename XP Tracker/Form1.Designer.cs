@@ -64,6 +64,7 @@ partial class Form1
             this.pictureBox22 = new System.Windows.Forms.PictureBox();
             this.pictureBox23 = new System.Windows.Forms.PictureBox();
             this.pictureBox24 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -266,7 +267,7 @@ partial class Form1
             // pictureBox11
             // 
             this.pictureBox11.Image = global::XP_Tracker.Properties.Resources.The_C__Player_s_Guide___XPTracker_page_002;
-            this.pictureBox11.Location = new System.Drawing.Point(868, 12);
+            this.pictureBox11.Location = new System.Drawing.Point(870, 12);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(921, 930);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -466,11 +467,25 @@ partial class Form1
             this.pictureBox24.TabStop = false;
             this.pictureBox24.Visible = false;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.White;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(54, 25);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(201, 37);
+            this.label1.TabIndex = 38;
+            this.label1.Text = "Fourth Edition";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1801, 954);
+            this.AutoSize = true;
+            this.ClientSize = new System.Drawing.Size(1816, 954);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox24);
             this.Controls.Add(this.pictureBox23);
             this.Controls.Add(this.pictureBox22);
@@ -509,6 +524,7 @@ partial class Form1
             this.ForeColor = System.Drawing.Color.Transparent;
             this.Name = "Form1";
             this.Text = "XP Tracker";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -576,4 +592,5 @@ partial class Form1
     private PictureBox pictureBox22;
     private PictureBox pictureBox23;
     private PictureBox pictureBox24;
+    private Label label1;
 }
