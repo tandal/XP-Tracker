@@ -267,7 +267,7 @@ partial class Form1
             // pictureBox11
             // 
             this.pictureBox11.Image = global::XP_Tracker.Properties.Resources.The_C__Player_s_Guide___XPTracker_page_002;
-            this.pictureBox11.Location = new System.Drawing.Point(871, -2);
+            this.pictureBox11.Location = new System.Drawing.Point(870, 12);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(921, 930);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -483,6 +483,7 @@ partial class Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(1816, 954);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox24);
