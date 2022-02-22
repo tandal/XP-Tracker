@@ -3,6 +3,7 @@ namespace XP_Tracker;
 
 public partial class Form1 : Form
 {
+
     public Form1()
     {
         InitializeComponent();
@@ -10,7 +11,7 @@ public partial class Form1 : Form
 
     private void Form1_Load(object sender, EventArgs e)
     {
-        
+
     }
     string savedFormData = "save.txt";
     
@@ -31,17 +32,20 @@ public partial class Form1 : Form
 
     private void checkBox_pg10_CheckedChanged(object sender, EventArgs e)
     {
+        StreamWriter sw = new StreamWriter(Application.StartupPath + "save.txt");
+
         if (checkBox_pg10.Checked == true)
         {
             pictureBox2.Visible = true;
             addXpEarned(25);
-            File.WriteAllText(savedFormData, checkBox_pg10.Checked.ToString());
+            sw.WriteLine(checkBox_pg10.Text + " " + checkBox_pg10.Checked.ToString());
+            //File.WriteAllText(savedFormData, checkBox_pg10.Checked.ToString());
         }
         else 
         {
             pictureBox2.Visible = false;
             subtractXpEarned(25);
-            File.WriteAllText(savedFormData, checkBox_pg10.Checked.ToString());
+            sw.WriteLine(checkBox_pg10.Text + " " + checkBox_pg10.Checked.ToString());
         }
 
     }
@@ -54,7 +58,6 @@ public partial class Form1 : Form
             pictureBox4.Visible = true;
             pictureBox6.Visible = true;
             addXpEarned(75);
-            File.WriteAllText(savedFormData, checkBox_pg14.Checked.ToString());
         }
         else
         {
@@ -62,7 +65,6 @@ public partial class Form1 : Form
             pictureBox4.Visible = false;
             pictureBox6.Visible = false;
             subtractXpEarned(75);
-            File.WriteAllText(savedFormData, checkBox_pg14.Checked.ToString());
         }
     }
 
