@@ -13,7 +13,14 @@ public partial class Form1 : Form
     {
         checkBox_pg10.Checked = Properties.Settings.Default.checkboxPg10;
         checkBox_pg14.Checked = Properties.Settings.Default.checkboxPg14;
-    }  
+        checkBox_pg19.Checked = Properties.Settings.Default.checkboxPg19;
+        checkBox_pg22WhatComesNext.Checked = Properties.Settings.Default.checkboxPg22;
+        checkBox_pg22TheMakingsOfAProgrammer.Checked = Properties.Settings.Default.checkboxPg22_2;
+        checkBox_pg24.Checked = Properties.Settings.Default.checkbox_Pg24;
+        checkBox_pg28.Checked = Properties.Settings.Default.checkbox_Pg28;
+        checkBox_pg34.Checked = Properties.Settings.Default.checkbox_Pg34;
+        checkBox_pg42.Checked = Properties.Settings.Default.checkbox_Pg42;
+    }
 
     int xpEarned = 25;
     private void addXpEarned(int value)
@@ -185,6 +192,13 @@ public partial class Form1 : Form
     {
         Properties.Settings.Default.checkboxPg10 = checkBox_pg10.Checked;
         Properties.Settings.Default.checkboxPg14 = checkBox_pg14.Checked;
+        Properties.Settings.Default.checkboxPg19 = checkBox_pg19.Checked;
+        Properties.Settings.Default.checkboxPg22 = checkBox_pg22WhatComesNext.Checked;
+        Properties.Settings.Default.checkboxPg22_2 = checkBox_pg22TheMakingsOfAProgrammer.Checked;
+        Properties.Settings.Default.checkbox_Pg24 = checkBox_pg24.Checked;
+        Properties.Settings.Default.checkbox_Pg28 = checkBox_pg28.Checked;
+        Properties.Settings.Default.checkbox_Pg34 = checkBox_pg34.Checked;
+        Properties.Settings.Default.checkbox_Pg42 = checkBox_pg42.Checked;
         Properties.Settings.Default.Save();
     }
 }

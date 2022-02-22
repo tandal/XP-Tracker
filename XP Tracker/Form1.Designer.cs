@@ -94,7 +94,7 @@ partial class Form1
             // pictureBox1
             // 
             this.pictureBox1.Image = global::XP_Tracker.Properties.Resources.The_C__Player_s_Guide___XPTracker_page_001;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(-39, -5);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(841, 930);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -104,7 +104,7 @@ partial class Form1
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(168, 820);
+            this.pictureBox2.Location = new System.Drawing.Point(117, 803);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(13, 11);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -116,7 +116,7 @@ partial class Form1
             // 
             this.checkBox_pg10.AutoSize = true;
             this.checkBox_pg10.ForeColor = System.Drawing.Color.Black;
-            this.checkBox_pg10.Location = new System.Drawing.Point(414, 124);
+            this.checkBox_pg10.Location = new System.Drawing.Point(363, 107);
             this.checkBox_pg10.Name = "checkBox_pg10";
             this.checkBox_pg10.Size = new System.Drawing.Size(15, 14);
             this.checkBox_pg10.TabIndex = 4;
@@ -126,7 +126,7 @@ partial class Form1
             // checkBox_pg14
             // 
             this.checkBox_pg14.AutoSize = true;
-            this.checkBox_pg14.Location = new System.Drawing.Point(414, 139);
+            this.checkBox_pg14.Location = new System.Drawing.Point(363, 122);
             this.checkBox_pg14.Name = "checkBox_pg14";
             this.checkBox_pg14.Size = new System.Drawing.Size(15, 14);
             this.checkBox_pg14.TabIndex = 5;
@@ -136,7 +136,7 @@ partial class Form1
             // pictureBox3
             // 
             this.pictureBox3.Image = global::XP_Tracker.Properties.Resources.grayedOut;
-            this.pictureBox3.Location = new System.Drawing.Point(184, 820);
+            this.pictureBox3.Location = new System.Drawing.Point(133, 803);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(12, 11);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -147,7 +147,7 @@ partial class Form1
             // checkBox_pg19
             // 
             this.checkBox_pg19.AutoSize = true;
-            this.checkBox_pg19.Location = new System.Drawing.Point(414, 154);
+            this.checkBox_pg19.Location = new System.Drawing.Point(363, 137);
             this.checkBox_pg19.Name = "checkBox_pg19";
             this.checkBox_pg19.Size = new System.Drawing.Size(15, 14);
             this.checkBox_pg19.TabIndex = 7;
@@ -157,7 +157,7 @@ partial class Form1
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(152, 820);
+            this.pictureBox5.Location = new System.Drawing.Point(101, 803);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(13, 11);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -167,7 +167,7 @@ partial class Form1
             // pictureBox4
             // 
             this.pictureBox4.Image = global::XP_Tracker.Properties.Resources.grayedOut;
-            this.pictureBox4.Location = new System.Drawing.Point(199, 820);
+            this.pictureBox4.Location = new System.Drawing.Point(148, 803);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(12, 11);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -178,7 +178,7 @@ partial class Form1
             // pictureBox6
             // 
             this.pictureBox6.Image = global::XP_Tracker.Properties.Resources.grayedOut;
-            this.pictureBox6.Location = new System.Drawing.Point(215, 820);
+            this.pictureBox6.Location = new System.Drawing.Point(164, 803);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(12, 11);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -189,7 +189,7 @@ partial class Form1
             // pictureBox7
             // 
             this.pictureBox7.Image = global::XP_Tracker.Properties.Resources.grayedOut;
-            this.pictureBox7.Location = new System.Drawing.Point(231, 820);
+            this.pictureBox7.Location = new System.Drawing.Point(180, 803);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(12, 11);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -200,7 +200,7 @@ partial class Form1
             // pictureBox8
             // 
             this.pictureBox8.Image = global::XP_Tracker.Properties.Resources.grayedOut;
-            this.pictureBox8.Location = new System.Drawing.Point(247, 820);
+            this.pictureBox8.Location = new System.Drawing.Point(196, 803);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(12, 11);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -211,7 +211,7 @@ partial class Form1
             // checkBox_pg22WhatComesNext
             // 
             this.checkBox_pg22WhatComesNext.AutoSize = true;
-            this.checkBox_pg22WhatComesNext.Location = new System.Drawing.Point(414, 169);
+            this.checkBox_pg22WhatComesNext.Location = new System.Drawing.Point(363, 152);
             this.checkBox_pg22WhatComesNext.Name = "checkBox_pg22WhatComesNext";
             this.checkBox_pg22WhatComesNext.Size = new System.Drawing.Size(15, 14);
             this.checkBox_pg22WhatComesNext.TabIndex = 14;
@@ -221,7 +221,7 @@ partial class Form1
             // pictureBox9
             // 
             this.pictureBox9.Image = global::XP_Tracker.Properties.Resources.grayedOut;
-            this.pictureBox9.Location = new System.Drawing.Point(262, 820);
+            this.pictureBox9.Location = new System.Drawing.Point(211, 803);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(12, 11);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -232,7 +232,7 @@ partial class Form1
             // pictureBox10
             // 
             this.pictureBox10.Image = global::XP_Tracker.Properties.Resources.grayedOut;
-            this.pictureBox10.Location = new System.Drawing.Point(152, 794);
+            this.pictureBox10.Location = new System.Drawing.Point(101, 777);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(12, 11);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -244,11 +244,11 @@ partial class Form1
             // 
             this.label_XpEarned.AutoSize = true;
             this.label_XpEarned.BackColor = System.Drawing.Color.White;
-            this.label_XpEarned.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label_XpEarned.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label_XpEarned.ForeColor = System.Drawing.Color.Black;
-            this.label_XpEarned.Location = new System.Drawing.Point(105, 903);
+            this.label_XpEarned.Location = new System.Drawing.Point(7, 874);
             this.label_XpEarned.Name = "label_XpEarned";
-            this.label_XpEarned.Size = new System.Drawing.Size(126, 25);
+            this.label_XpEarned.Size = new System.Drawing.Size(180, 37);
             this.label_XpEarned.TabIndex = 17;
             this.label_XpEarned.Text = "XP Earned = ";
             // 
@@ -258,7 +258,7 @@ partial class Form1
             this.label1_XpEarnedDisplayed.BackColor = System.Drawing.Color.White;
             this.label1_XpEarnedDisplayed.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1_XpEarnedDisplayed.ForeColor = System.Drawing.Color.Black;
-            this.label1_XpEarnedDisplayed.Location = new System.Drawing.Point(217, 892);
+            this.label1_XpEarnedDisplayed.Location = new System.Drawing.Point(174, 874);
             this.label1_XpEarnedDisplayed.Name = "label1_XpEarnedDisplayed";
             this.label1_XpEarnedDisplayed.Size = new System.Drawing.Size(49, 37);
             this.label1_XpEarnedDisplayed.TabIndex = 18;
@@ -267,9 +267,9 @@ partial class Form1
             // pictureBox11
             // 
             this.pictureBox11.Image = global::XP_Tracker.Properties.Resources.The_C__Player_s_Guide___XPTracker_page_002;
-            this.pictureBox11.Location = new System.Drawing.Point(870, 12);
+            this.pictureBox11.Location = new System.Drawing.Point(667, -5);
             this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(921, 930);
+            this.pictureBox11.Size = new System.Drawing.Size(785, 930);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox11.TabIndex = 19;
             this.pictureBox11.TabStop = false;
@@ -277,7 +277,7 @@ partial class Form1
             // checkBox_pg22TheMakingsOfAProgrammer
             // 
             this.checkBox_pg22TheMakingsOfAProgrammer.AutoSize = true;
-            this.checkBox_pg22TheMakingsOfAProgrammer.Location = new System.Drawing.Point(414, 184);
+            this.checkBox_pg22TheMakingsOfAProgrammer.Location = new System.Drawing.Point(363, 167);
             this.checkBox_pg22TheMakingsOfAProgrammer.Name = "checkBox_pg22TheMakingsOfAProgrammer";
             this.checkBox_pg22TheMakingsOfAProgrammer.Size = new System.Drawing.Size(15, 14);
             this.checkBox_pg22TheMakingsOfAProgrammer.TabIndex = 20;
@@ -287,7 +287,7 @@ partial class Form1
             // pictureBox12
             // 
             this.pictureBox12.Image = global::XP_Tracker.Properties.Resources.grayedOut;
-            this.pictureBox12.Location = new System.Drawing.Point(168, 794);
+            this.pictureBox12.Location = new System.Drawing.Point(117, 777);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(12, 11);
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -298,7 +298,7 @@ partial class Form1
             // pictureBox13
             // 
             this.pictureBox13.Image = global::XP_Tracker.Properties.Resources.grayedOut;
-            this.pictureBox13.Location = new System.Drawing.Point(184, 794);
+            this.pictureBox13.Location = new System.Drawing.Point(133, 777);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(12, 11);
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -309,7 +309,7 @@ partial class Form1
             // checkBox_pg24
             // 
             this.checkBox_pg24.AutoSize = true;
-            this.checkBox_pg24.Location = new System.Drawing.Point(414, 199);
+            this.checkBox_pg24.Location = new System.Drawing.Point(363, 182);
             this.checkBox_pg24.Name = "checkBox_pg24";
             this.checkBox_pg24.Size = new System.Drawing.Size(15, 14);
             this.checkBox_pg24.TabIndex = 23;
@@ -319,7 +319,7 @@ partial class Form1
             // pictureBox14
             // 
             this.pictureBox14.Image = global::XP_Tracker.Properties.Resources.grayedOut;
-            this.pictureBox14.Location = new System.Drawing.Point(200, 794);
+            this.pictureBox14.Location = new System.Drawing.Point(149, 777);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(12, 11);
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -330,7 +330,7 @@ partial class Form1
             // pictureBox15
             // 
             this.pictureBox15.Image = global::XP_Tracker.Properties.Resources.grayedOut;
-            this.pictureBox15.Location = new System.Drawing.Point(215, 794);
+            this.pictureBox15.Location = new System.Drawing.Point(164, 777);
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.Size = new System.Drawing.Size(12, 11);
             this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -341,7 +341,7 @@ partial class Form1
             // checkBox_pg28
             // 
             this.checkBox_pg28.AutoSize = true;
-            this.checkBox_pg28.Location = new System.Drawing.Point(414, 215);
+            this.checkBox_pg28.Location = new System.Drawing.Point(363, 198);
             this.checkBox_pg28.Name = "checkBox_pg28";
             this.checkBox_pg28.Size = new System.Drawing.Size(15, 14);
             this.checkBox_pg28.TabIndex = 26;
@@ -351,7 +351,7 @@ partial class Form1
             // pictureBox16
             // 
             this.pictureBox16.Image = global::XP_Tracker.Properties.Resources.grayedOut;
-            this.pictureBox16.Location = new System.Drawing.Point(231, 794);
+            this.pictureBox16.Location = new System.Drawing.Point(180, 777);
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.Size = new System.Drawing.Size(12, 11);
             this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -362,7 +362,7 @@ partial class Form1
             // pictureBox17
             // 
             this.pictureBox17.Image = global::XP_Tracker.Properties.Resources.grayedOut;
-            this.pictureBox17.Location = new System.Drawing.Point(247, 794);
+            this.pictureBox17.Location = new System.Drawing.Point(196, 777);
             this.pictureBox17.Name = "pictureBox17";
             this.pictureBox17.Size = new System.Drawing.Size(12, 11);
             this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -373,7 +373,7 @@ partial class Form1
             // pictureBox18
             // 
             this.pictureBox18.Image = global::XP_Tracker.Properties.Resources.grayedOut;
-            this.pictureBox18.Location = new System.Drawing.Point(262, 794);
+            this.pictureBox18.Location = new System.Drawing.Point(211, 777);
             this.pictureBox18.Name = "pictureBox18";
             this.pictureBox18.Size = new System.Drawing.Size(12, 11);
             this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -384,7 +384,7 @@ partial class Form1
             // pictureBox19
             // 
             this.pictureBox19.Image = global::XP_Tracker.Properties.Resources.grayedOut;
-            this.pictureBox19.Location = new System.Drawing.Point(153, 780);
+            this.pictureBox19.Location = new System.Drawing.Point(102, 763);
             this.pictureBox19.Name = "pictureBox19";
             this.pictureBox19.Size = new System.Drawing.Size(12, 11);
             this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -395,7 +395,7 @@ partial class Form1
             // checkBox_pg34
             // 
             this.checkBox_pg34.AutoSize = true;
-            this.checkBox_pg34.Location = new System.Drawing.Point(414, 230);
+            this.checkBox_pg34.Location = new System.Drawing.Point(363, 213);
             this.checkBox_pg34.Name = "checkBox_pg34";
             this.checkBox_pg34.Size = new System.Drawing.Size(15, 14);
             this.checkBox_pg34.TabIndex = 31;
@@ -405,7 +405,7 @@ partial class Form1
             // pictureBox20
             // 
             this.pictureBox20.Image = global::XP_Tracker.Properties.Resources.grayedOut;
-            this.pictureBox20.Location = new System.Drawing.Point(169, 781);
+            this.pictureBox20.Location = new System.Drawing.Point(118, 764);
             this.pictureBox20.Name = "pictureBox20";
             this.pictureBox20.Size = new System.Drawing.Size(12, 11);
             this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -416,7 +416,7 @@ partial class Form1
             // checkBox_pg42
             // 
             this.checkBox_pg42.AutoSize = true;
-            this.checkBox_pg42.Location = new System.Drawing.Point(414, 245);
+            this.checkBox_pg42.Location = new System.Drawing.Point(363, 228);
             this.checkBox_pg42.Name = "checkBox_pg42";
             this.checkBox_pg42.Size = new System.Drawing.Size(15, 14);
             this.checkBox_pg42.TabIndex = 33;
@@ -426,7 +426,7 @@ partial class Form1
             // pictureBox21
             // 
             this.pictureBox21.Image = global::XP_Tracker.Properties.Resources.grayedOut;
-            this.pictureBox21.Location = new System.Drawing.Point(184, 781);
+            this.pictureBox21.Location = new System.Drawing.Point(133, 764);
             this.pictureBox21.Name = "pictureBox21";
             this.pictureBox21.Size = new System.Drawing.Size(12, 11);
             this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -437,7 +437,7 @@ partial class Form1
             // pictureBox22
             // 
             this.pictureBox22.Image = global::XP_Tracker.Properties.Resources.grayedOut;
-            this.pictureBox22.Location = new System.Drawing.Point(200, 781);
+            this.pictureBox22.Location = new System.Drawing.Point(149, 764);
             this.pictureBox22.Name = "pictureBox22";
             this.pictureBox22.Size = new System.Drawing.Size(12, 11);
             this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -448,7 +448,7 @@ partial class Form1
             // pictureBox23
             // 
             this.pictureBox23.Image = global::XP_Tracker.Properties.Resources.grayedOut;
-            this.pictureBox23.Location = new System.Drawing.Point(215, 781);
+            this.pictureBox23.Location = new System.Drawing.Point(164, 764);
             this.pictureBox23.Name = "pictureBox23";
             this.pictureBox23.Size = new System.Drawing.Size(12, 11);
             this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -459,7 +459,7 @@ partial class Form1
             // pictureBox24
             // 
             this.pictureBox24.Image = global::XP_Tracker.Properties.Resources.grayedOut;
-            this.pictureBox24.Location = new System.Drawing.Point(231, 781);
+            this.pictureBox24.Location = new System.Drawing.Point(180, 764);
             this.pictureBox24.Name = "pictureBox24";
             this.pictureBox24.Size = new System.Drawing.Size(12, 11);
             this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -473,7 +473,7 @@ partial class Form1
             this.label1.BackColor = System.Drawing.Color.White;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(54, 25);
+            this.label1.Location = new System.Drawing.Point(7, 8);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(201, 37);
             this.label1.TabIndex = 38;
@@ -484,7 +484,7 @@ partial class Form1
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(1816, 954);
+            this.ClientSize = new System.Drawing.Size(1413, 909);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox24);
             this.Controls.Add(this.pictureBox23);
@@ -523,6 +523,7 @@ partial class Form1
             this.Controls.Add(this.pictureBox1);
             this.ForeColor = System.Drawing.Color.Transparent;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "XP Tracker";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
