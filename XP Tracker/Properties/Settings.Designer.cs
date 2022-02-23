@@ -46,5 +46,305 @@ namespace XP_Tracker.Properties {
                 this["checkboxPg14"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool checkboxPg19 {
+            get {
+                return ((bool)(this["checkboxPg19"]));
+            }
+            set {
+                this["checkboxPg19"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool checkboxPg22 {
+            get {
+                return ((bool)(this["checkboxPg22"]));
+            }
+            set {
+                this["checkboxPg22"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool checkboxPg22_2 {
+            get {
+                return ((bool)(this["checkboxPg22_2"]));
+            }
+            set {
+                this["checkboxPg22_2"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool checkbox_Pg24 {
+            get {
+                return ((bool)(this["checkbox_Pg24"]));
+            }
+            set {
+                this["checkbox_Pg24"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool checkbox_Pg28 {
+            get {
+                return ((bool)(this["checkbox_Pg28"]));
+            }
+            set {
+                this["checkbox_Pg28"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool checkbox_Pg34 {
+            get {
+                return ((bool)(this["checkbox_Pg34"]));
+            }
+            set {
+                this["checkbox_Pg34"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool checkbox_Pg42 {
+            get {
+                return ((bool)(this["checkbox_Pg42"]));
+            }
+            set {
+                this["checkbox_Pg42"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool checkbox_Pg43 {
+            get {
+                return ((bool)(this["checkbox_Pg43"]));
+            }
+            set {
+                this["checkbox_Pg43"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool checkbox_Pg45 {
+            get {
+                return ((bool)(this["checkbox_Pg45"]));
+            }
+            set {
+                this["checkbox_Pg45"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool checkbox_Pg50 {
+            get {
+                return ((bool)(this["checkbox_Pg50"]));
+            }
+            set {
+                this["checkbox_Pg50"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool checkbox_Pg53 {
+            get {
+                return ((bool)(this["checkbox_Pg53"]));
+            }
+            set {
+                this["checkbox_Pg53"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool checkbox_Pg54 {
+            get {
+                return ((bool)(this["checkbox_Pg54"]));
+            }
+            set {
+                this["checkbox_Pg54"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool checkbox_Pg65 {
+            get {
+                return ((bool)(this["checkbox_Pg65"]));
+            }
+            set {
+                this["checkbox_Pg65"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool checkbox_Pg72 {
+            get {
+                return ((bool)(this["checkbox_Pg72"]));
+            }
+            set {
+                this["checkbox_Pg72"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool checkbox_Pg74 {
+            get {
+                return ((bool)(this["checkbox_Pg74"]));
+            }
+            set {
+                this["checkbox_Pg74"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool checkbox_Pg78 {
+            get {
+                return ((bool)(this["checkbox_Pg78"]));
+            }
+            set {
+                this["checkbox_Pg78"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool checkbox_Pg79 {
+            get {
+                return ((bool)(this["checkbox_Pg79"]));
+            }
+            set {
+                this["checkbox_Pg79"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool checkbox_Pg84 {
+            get {
+                return ((bool)(this["checkbox_Pg84"]));
+            }
+            set {
+                this["checkbox_Pg84"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool checkbox_Pg85 {
+            get {
+                return ((bool)(this["checkbox_Pg85"]));
+            }
+            set {
+                this["checkbox_Pg85"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool checkbox_Pg90 {
+            get {
+                return ((bool)(this["checkbox_Pg90"]));
+            }
+            set {
+                this["checkbox_Pg90"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool checkbox_Pg91 {
+            get {
+                return ((bool)(this["checkbox_Pg91"]));
+            }
+            set {
+                this["checkbox_Pg91"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool checkbox_Pg101 {
+            get {
+                return ((bool)(this["checkbox_Pg101"]));
+            }
+            set {
+                this["checkbox_Pg101"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool checkbox_Pg102 {
+            get {
+                return ((bool)(this["checkbox_Pg102"]));
+            }
+            set {
+                this["checkbox_Pg102"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool checkbox_Pg117 {
+            get {
+                return ((bool)(this["checkbox_Pg117"]));
+            }
+            set {
+                this["checkbox_Pg117"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool checkbox_Pg118 {
+            get {
+                return ((bool)(this["checkbox_Pg118"]));
+            }
+            set {
+                this["checkbox_Pg118"] = value;
+            }
+        }
     }
 }

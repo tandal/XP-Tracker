@@ -73,6 +73,16 @@ namespace XP_Tracker.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap levelFilledInProgressDot {
+            get {
+                object obj = ResourceManager.GetObject("levelFilledInProgressDot", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap The_C__Player_s_Guide___XPTracker_page_001 {
             get {
                 object obj = ResourceManager.GetObject("The C# Player s Guide - XPTracker-page-001", resourceCulture);
