@@ -35,6 +35,8 @@ public partial class Form1 : Form
         checkBoxPg90.Checked = Properties.Settings.Default.checkbox_Pg90;
         checkBoxPg91.Checked = Properties.Settings.Default.checkbox_Pg91;
         checkBoxPg101.Checked = Properties.Settings.Default.checkbox_Pg101;
+        checkBoxPg102.Checked = Properties.Settings.Default.checkbox_Pg102;
+
     }
 
 
@@ -54,6 +56,7 @@ public partial class Form1 : Form
        */
         if (xpEarned >= 600) pictureBoxLevel2Complete.Show();
         if (xpEarned >= 1200) pictureBoxLevel3Complete.Show();
+        if (xpEarned >= 2000) pictureBoxLevel4Complete.Show();
     }
 
     private void subtractXpEarned(int value)
@@ -62,6 +65,7 @@ public partial class Form1 : Form
         label1_XpEarnedDisplayed.Text = xpEarned.ToString();
         if (xpEarned < 600) pictureBoxLevel2Complete.Hide();
         if (xpEarned < 1200) pictureBoxLevel3Complete.Hide();
+        if (xpEarned < 2000) pictureBoxLevel4Complete.Hide();
     }
 
     private void checkBox_pg10_CheckedChanged(object sender, EventArgs e)
@@ -243,7 +247,7 @@ public partial class Form1 : Form
         Properties.Settings.Default.checkbox_Pg90 = checkBoxPg90.Checked;
         Properties.Settings.Default.checkbox_Pg91 = checkBoxPg91.Checked;
         Properties.Settings.Default.checkbox_Pg101 = checkBoxPg101.Checked;
-
+        Properties.Settings.Default.checkbox_Pg102 = checkBoxPg102.Checked;
 
         Properties.Settings.Default.Save();
     }
@@ -534,6 +538,26 @@ public partial class Form1 : Form
             pictureBox77.Visible = false;
             pictureBox78.Visible = false;
             pictureBox79.Visible = false;
+            subtractXpEarned(100);
+        }
+    }
+
+    private void checkBoxPg102_CheckedChanged(object sender, EventArgs e)
+    {
+        if (checkBoxPg102.Checked == true)
+        {
+            pictureBox80.Visible = true;
+            pictureBox81.Visible = true;
+            pictureBox82.Visible = true;
+            pictureBox83.Visible = true;
+            addXpEarned(100);
+        }
+        else
+        {
+            pictureBox80.Visible = false;
+            pictureBox81.Visible = false;
+            pictureBox82.Visible = false;
+            pictureBox83.Visible = false;
             subtractXpEarned(100);
         }
     }
