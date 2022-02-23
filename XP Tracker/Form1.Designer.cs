@@ -130,6 +130,10 @@ partial class Form1
             this.pictureBox67 = new System.Windows.Forms.PictureBox();
             this.pictureBox68 = new System.Windows.Forms.PictureBox();
             this.pictureBox69 = new System.Windows.Forms.PictureBox();
+            this.pictureBox70 = new System.Windows.Forms.PictureBox();
+            this.pictureBox71 = new System.Windows.Forms.PictureBox();
+            this.pictureBox72 = new System.Windows.Forms.PictureBox();
+            this.pictureBox73 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -201,6 +205,10 @@ partial class Form1
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox67)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox68)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox69)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox70)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox71)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox72)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox73)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -719,6 +727,7 @@ partial class Form1
             this.checkBoxPg90.Size = new System.Drawing.Size(15, 14);
             this.checkBoxPg90.TabIndex = 51;
             this.checkBoxPg90.UseVisualStyleBackColor = true;
+            this.checkBoxPg90.CheckedChanged += new System.EventHandler(this.checkBoxPg90_CheckedChanged);
             // 
             // checkBoxPg91
             // 
@@ -1282,12 +1291,60 @@ partial class Form1
             this.pictureBox69.TabStop = false;
             this.pictureBox69.Visible = false;
             // 
+            // pictureBox70
+            // 
+            this.pictureBox70.Image = global::XP_Tracker.Properties.Resources.grayedOut;
+            this.pictureBox70.Location = new System.Drawing.Point(150, 659);
+            this.pictureBox70.Name = "pictureBox70";
+            this.pictureBox70.Size = new System.Drawing.Size(12, 11);
+            this.pictureBox70.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox70.TabIndex = 104;
+            this.pictureBox70.TabStop = false;
+            this.pictureBox70.Visible = false;
+            // 
+            // pictureBox71
+            // 
+            this.pictureBox71.Image = global::XP_Tracker.Properties.Resources.grayedOut;
+            this.pictureBox71.Location = new System.Drawing.Point(165, 659);
+            this.pictureBox71.Name = "pictureBox71";
+            this.pictureBox71.Size = new System.Drawing.Size(12, 11);
+            this.pictureBox71.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox71.TabIndex = 105;
+            this.pictureBox71.TabStop = false;
+            this.pictureBox71.Visible = false;
+            // 
+            // pictureBox72
+            // 
+            this.pictureBox72.Image = global::XP_Tracker.Properties.Resources.grayedOut;
+            this.pictureBox72.Location = new System.Drawing.Point(180, 659);
+            this.pictureBox72.Name = "pictureBox72";
+            this.pictureBox72.Size = new System.Drawing.Size(12, 11);
+            this.pictureBox72.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox72.TabIndex = 106;
+            this.pictureBox72.TabStop = false;
+            this.pictureBox72.Visible = false;
+            // 
+            // pictureBox73
+            // 
+            this.pictureBox73.Image = global::XP_Tracker.Properties.Resources.grayedOut;
+            this.pictureBox73.Location = new System.Drawing.Point(196, 659);
+            this.pictureBox73.Name = "pictureBox73";
+            this.pictureBox73.Size = new System.Drawing.Size(12, 11);
+            this.pictureBox73.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox73.TabIndex = 107;
+            this.pictureBox73.TabStop = false;
+            this.pictureBox73.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(1413, 909);
+            this.Controls.Add(this.pictureBox73);
+            this.Controls.Add(this.pictureBox72);
+            this.Controls.Add(this.pictureBox71);
+            this.Controls.Add(this.pictureBox70);
             this.Controls.Add(this.pictureBox69);
             this.Controls.Add(this.pictureBox68);
             this.Controls.Add(this.pictureBox67);
@@ -1466,6 +1523,10 @@ partial class Form1
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox67)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox68)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox69)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox70)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox71)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox72)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox73)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1574,4 +1635,8 @@ partial class Form1
     private PictureBox pictureBox67;
     private PictureBox pictureBox68;
     private PictureBox pictureBox69;
+    private PictureBox pictureBox70;
+    private PictureBox pictureBox71;
+    private PictureBox pictureBox72;
+    private PictureBox pictureBox73;
 }
