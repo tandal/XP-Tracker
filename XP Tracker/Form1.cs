@@ -37,6 +37,7 @@ public partial class Form1 : Form
         checkBoxPg101.Checked = Properties.Settings.Default.checkbox_Pg101;
         checkBoxPg102.Checked = Properties.Settings.Default.checkbox_Pg102;
         checkBoxPg117.Checked = Properties.Settings.Default.checkbox_Pg117;
+        checkBoxPg118.Checked = Properties.Settings.Default.checkbox_Pg118;
     }
 
 
@@ -249,6 +250,8 @@ public partial class Form1 : Form
         Properties.Settings.Default.checkbox_Pg101 = checkBoxPg101.Checked;
         Properties.Settings.Default.checkbox_Pg102 = checkBoxPg102.Checked;
         Properties.Settings.Default.checkbox_Pg117 = checkBoxPg117.Checked;
+        Properties.Settings.Default.checkbox_Pg118 = checkBoxPg118.Checked;
+
         Properties.Settings.Default.Save();
     }
 
@@ -573,6 +576,38 @@ public partial class Form1 : Form
         {
             pictureBox84.Visible = false;
             subtractXpEarned(100);
+        }
+    }
+
+    private void checkBoxPg118_CheckedChanged(object sender, EventArgs e)
+    {
+        if (checkBoxPg118.Checked == true)
+        {
+            pictureBox85.Visible = true;
+            pictureBox86.Visible = true;
+            pictureBox87.Visible = true;
+            pictureBox88.Visible = true;
+            pictureBox89.Visible = true;
+            pictureBox90.Visible = true;
+            pictureBox91.Visible = true;
+            pictureBox92.Visible = true;
+            pictureBox93.Visible = true;
+            pictureBox94.Visible = true;
+            addXpEarned(250);
+        }
+        else
+        {
+            pictureBox85.Visible = false;
+            pictureBox86.Visible = false;
+            pictureBox87.Visible = false;
+            pictureBox88.Visible = false;
+            pictureBox89.Visible = false;
+            pictureBox90.Visible = false;
+            pictureBox91.Visible = false;
+            pictureBox92.Visible = false;
+            pictureBox93.Visible = false;
+            pictureBox94.Visible = false;
+            subtractXpEarned(250);
         }
     }
 }
