@@ -20,13 +20,25 @@ public partial class Form1 : Form
         checkBox_pg28.Checked = Properties.Settings.Default.checkbox_Pg28;
         checkBox_pg34.Checked = Properties.Settings.Default.checkbox_Pg34;
         checkBox_pg42.Checked = Properties.Settings.Default.checkbox_Pg42;
+        checkBoxPg43.Checked = Properties.Settings.Default.checkbox_Pg43;
     }
 
     int xpEarned = 25;
+
     private void addXpEarned(int value)
     { 
         xpEarned = xpEarned + value;
         label1_XpEarnedDisplayed.Text = xpEarned.ToString();
+
+     /* TODO
+     [x] Check to see if value equals 600
+     [] Get the image for a filled in dot
+     [] If value equals 600 fill in the level 2 dot
+     [] Else leave the level 2 dot empty
+     [] Think about using a switch here instead of a lot of "If" statements
+    */
+        if (xpEarned == 600) MessageBox.Show("You have reached Level 2!"); //Using a messagebox as a test. 
+
     }
 
     private void subtractXpEarned(int value)
@@ -199,6 +211,24 @@ public partial class Form1 : Form
         Properties.Settings.Default.checkbox_Pg28 = checkBox_pg28.Checked;
         Properties.Settings.Default.checkbox_Pg34 = checkBox_pg34.Checked;
         Properties.Settings.Default.checkbox_Pg42 = checkBox_pg42.Checked;
+        Properties.Settings.Default.checkbox_Pg43 = checkBoxPg43.Checked;
+
         Properties.Settings.Default.Save();
+    }
+
+    private void checkBoxPg43_CheckedChanged(object sender, EventArgs e)
+    {
+        if (checkBoxPg43.Checked == true)
+        {
+            pictureBox25.Visible = true;
+            pictureBox26.Visible = true;
+            addXpEarned(50);
+        }
+        else
+        {
+            pictureBox25.Visible = false;
+            pictureBox26.Visible = false;
+            subtractXpEarned(50);
+        }
     }
 }
