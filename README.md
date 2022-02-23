@@ -5,5 +5,6 @@ In the book [The C# Player's Guide](URL 'https://csharpplayersguide.com/') there
 This is a work in progress.
 
 TODO:
-- Finish out the Part 1 section. _(Checkboxes, Progress on the xp grid, save & load form with user selected data, calcualte XP gained.)_ **In Progress**
+- ~~Finish out the Part 1 section. _(Checkboxes, Progress on the xp grid, save & load form with user selected data, calcualte XP gained.)_~~ Completed 2/22/2022
+- Finish Part 2 section
 - ~~Come up with a way to save so when you open the application again your progress isn't lost.~~ Implemented solution 2/22/2022
