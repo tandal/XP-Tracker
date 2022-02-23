@@ -145,6 +145,7 @@ partial class Form1
             this.pictureBox82 = new System.Windows.Forms.PictureBox();
             this.pictureBox83 = new System.Windows.Forms.PictureBox();
             this.pictureBoxLevel4Complete = new System.Windows.Forms.PictureBox();
+            this.pictureBox84 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -231,6 +232,7 @@ partial class Form1
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox82)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox83)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLevel4Complete)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox84)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -789,6 +791,7 @@ partial class Form1
             this.checkBoxPg117.Size = new System.Drawing.Size(15, 14);
             this.checkBoxPg117.TabIndex = 55;
             this.checkBoxPg117.UseVisualStyleBackColor = true;
+            this.checkBoxPg117.CheckedChanged += new System.EventHandler(this.checkBoxPg117_CheckedChanged);
             // 
             // checkBoxPg118
             // 
@@ -1481,12 +1484,24 @@ partial class Form1
             this.pictureBoxLevel4Complete.TabStop = false;
             this.pictureBoxLevel4Complete.Visible = false;
             // 
+            // pictureBox84
+            // 
+            this.pictureBox84.Image = global::XP_Tracker.Properties.Resources.grayedOut;
+            this.pictureBox84.Location = new System.Drawing.Point(117, 620);
+            this.pictureBox84.Name = "pictureBox84";
+            this.pictureBox84.Size = new System.Drawing.Size(12, 11);
+            this.pictureBox84.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox84.TabIndex = 119;
+            this.pictureBox84.TabStop = false;
+            this.pictureBox84.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(1413, 909);
+            this.Controls.Add(this.pictureBox84);
             this.Controls.Add(this.pictureBoxLevel4Complete);
             this.Controls.Add(this.pictureBox83);
             this.Controls.Add(this.pictureBox82);
@@ -1695,6 +1710,7 @@ partial class Form1
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox82)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox83)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLevel4Complete)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox84)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1818,4 +1834,5 @@ partial class Form1
     private PictureBox pictureBox82;
     private PictureBox pictureBox83;
     private PictureBox pictureBoxLevel4Complete;
+    private PictureBox pictureBox84;
 }

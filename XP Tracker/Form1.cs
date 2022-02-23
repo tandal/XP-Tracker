@@ -36,7 +36,7 @@ public partial class Form1 : Form
         checkBoxPg91.Checked = Properties.Settings.Default.checkbox_Pg91;
         checkBoxPg101.Checked = Properties.Settings.Default.checkbox_Pg101;
         checkBoxPg102.Checked = Properties.Settings.Default.checkbox_Pg102;
-
+        checkBoxPg117.Checked = Properties.Settings.Default.checkbox_Pg117;
     }
 
 
@@ -248,7 +248,7 @@ public partial class Form1 : Form
         Properties.Settings.Default.checkbox_Pg91 = checkBoxPg91.Checked;
         Properties.Settings.Default.checkbox_Pg101 = checkBoxPg101.Checked;
         Properties.Settings.Default.checkbox_Pg102 = checkBoxPg102.Checked;
-
+        Properties.Settings.Default.checkbox_Pg117 = checkBoxPg117.Checked;
         Properties.Settings.Default.Save();
     }
 
@@ -558,6 +558,20 @@ public partial class Form1 : Form
             pictureBox81.Visible = false;
             pictureBox82.Visible = false;
             pictureBox83.Visible = false;
+            subtractXpEarned(100);
+        }
+    }
+
+    private void checkBoxPg117_CheckedChanged(object sender, EventArgs e)
+    {
+        if (checkBoxPg117.Checked == true)
+        {
+            pictureBox84.Visible = true;
+            addXpEarned(25);
+        }
+        else
+        {
+            pictureBox84.Visible = false;
             subtractXpEarned(100);
         }
     }
