@@ -134,6 +134,8 @@ partial class Form1
             this.pictureBox71 = new System.Windows.Forms.PictureBox();
             this.pictureBox72 = new System.Windows.Forms.PictureBox();
             this.pictureBox73 = new System.Windows.Forms.PictureBox();
+            this.pictureBox74 = new System.Windows.Forms.PictureBox();
+            this.pictureBox75 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -209,6 +211,8 @@ partial class Form1
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox71)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox72)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox73)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox74)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox75)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -737,6 +741,7 @@ partial class Form1
             this.checkBoxPg91.Size = new System.Drawing.Size(15, 14);
             this.checkBoxPg91.TabIndex = 52;
             this.checkBoxPg91.UseVisualStyleBackColor = true;
+            this.checkBoxPg91.CheckedChanged += new System.EventHandler(this.checkBoxPg91_CheckedChanged);
             // 
             // checkBoxPg101
             // 
@@ -1335,12 +1340,36 @@ partial class Form1
             this.pictureBox73.TabStop = false;
             this.pictureBox73.Visible = false;
             // 
+            // pictureBox74
+            // 
+            this.pictureBox74.Image = global::XP_Tracker.Properties.Resources.grayedOut;
+            this.pictureBox74.Location = new System.Drawing.Point(211, 659);
+            this.pictureBox74.Name = "pictureBox74";
+            this.pictureBox74.Size = new System.Drawing.Size(12, 11);
+            this.pictureBox74.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox74.TabIndex = 108;
+            this.pictureBox74.TabStop = false;
+            this.pictureBox74.Visible = false;
+            // 
+            // pictureBox75
+            // 
+            this.pictureBox75.Image = global::XP_Tracker.Properties.Resources.grayedOut;
+            this.pictureBox75.Location = new System.Drawing.Point(103, 646);
+            this.pictureBox75.Name = "pictureBox75";
+            this.pictureBox75.Size = new System.Drawing.Size(12, 11);
+            this.pictureBox75.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox75.TabIndex = 109;
+            this.pictureBox75.TabStop = false;
+            this.pictureBox75.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(1413, 909);
+            this.Controls.Add(this.pictureBox75);
+            this.Controls.Add(this.pictureBox74);
             this.Controls.Add(this.pictureBox73);
             this.Controls.Add(this.pictureBox72);
             this.Controls.Add(this.pictureBox71);
@@ -1527,6 +1556,8 @@ partial class Form1
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox71)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox72)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox73)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox74)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox75)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1639,4 +1670,6 @@ partial class Form1
     private PictureBox pictureBox71;
     private PictureBox pictureBox72;
     private PictureBox pictureBox73;
+    private PictureBox pictureBox74;
+    private PictureBox pictureBox75;
 }
