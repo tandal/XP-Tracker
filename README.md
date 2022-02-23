@@ -5,5 +5,5 @@ In the book [The C# Player's Guide](URL 'https://csharpplayersguide.com/') there
 This is a work in progress.
 
 TODO:
-- Add the remaining objects to the form.
+- Finish out the Part 1 section. _(Checkboxes, Progress on the xp grid, save & load form with user selected data, calcualte XP gained.)_ **In Progress**
 - ~~Come up with a way to save so when you open the application again your progress isn't lost.~~ Implemented solution 2/22/2022
