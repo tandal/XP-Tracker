@@ -27,7 +27,14 @@ public partial class Form1 : Form
         checkBoxPg54.Checked = Properties.Settings.Default.checkbox_Pg54;
         checkBoxPg65.Checked = Properties.Settings.Default.checkbox_Pg65;
         checkBoxPg72.Checked = Properties.Settings.Default.checkbox_Pg72;
+        checkBoxPg74.Checked = Properties.Settings.Default.checkbox_Pg74;
+        checkBoxPg78.Checked = Properties.Settings.Default.checkbox_Pg78;
+        checkBoxPg79.Checked = Properties.Settings.Default.checkbox_Pg79;
+        checkBoxPg84.Checked = Properties.Settings.Default.checkbox_Pg84;
+        checkBoxPg85.Checked = Properties.Settings.Default.checkbox_Pg85;
+
     }
+
 
     int xpEarned = 25;
 
@@ -226,6 +233,12 @@ public partial class Form1 : Form
         Properties.Settings.Default.checkbox_Pg54 = checkBoxPg54.Checked;
         Properties.Settings.Default.checkbox_Pg65 = checkBoxPg65.Checked;
         Properties.Settings.Default.checkbox_Pg72 = checkBoxPg72.Checked;
+        Properties.Settings.Default.checkbox_Pg74 = checkBoxPg74.Checked;
+        Properties.Settings.Default.checkbox_Pg78 = checkBoxPg78.Checked;
+        Properties.Settings.Default.checkbox_Pg79 = checkBoxPg79.Checked;
+        Properties.Settings.Default.checkbox_Pg84 = checkBoxPg84.Checked;
+        Properties.Settings.Default.checkbox_Pg85 = checkBoxPg85.Checked;
+
         Properties.Settings.Default.Save();
     }
 
@@ -363,6 +376,102 @@ public partial class Form1 : Form
             pictureBox49.Visible = false;
             pictureBox50.Visible = false;
             pictureBox51.Visible = false;
+            subtractXpEarned(100);
+        }
+    }
+
+    private void checkBoxPg74_CheckedChanged(object sender, EventArgs e)
+    {
+        if (checkBoxPg74.Checked == true)
+        {
+            pictureBox52.Visible = true;
+            pictureBox53.Visible = true;
+            pictureBox54.Visible = true;
+            pictureBox55.Visible = true;
+            addXpEarned(100);
+        }
+        else
+        {
+            pictureBox52.Visible = false;
+            pictureBox53.Visible = false;
+            pictureBox54.Visible = false;
+            pictureBox55.Visible = false;
+            subtractXpEarned(100);
+        }
+    }
+
+    private void checkBoxPg78_CheckedChanged(object sender, EventArgs e)
+    {
+        if (checkBoxPg78.Checked == true)
+        {
+            pictureBox56.Visible = true;
+            pictureBox57.Visible = true;
+            pictureBox58.Visible = true;
+            pictureBox59.Visible = true;
+            addXpEarned(100);
+        }
+        else
+        {
+            pictureBox56.Visible = false;
+            pictureBox57.Visible = false;
+            pictureBox58.Visible = false;
+            pictureBox59.Visible = false;
+            subtractXpEarned(100);
+        }
+    }
+
+    private void checkBoxPg79_CheckedChanged(object sender, EventArgs e)
+    {
+        if (checkBoxPg79.Checked == true)
+        {
+            pictureBox60.Visible = true;
+            pictureBox61.Visible = true;
+            addXpEarned(50);
+        }
+        else
+        {
+            pictureBox60.Visible = false;
+            pictureBox61.Visible = false;
+            subtractXpEarned(50);
+        }
+    }
+
+    private void checkBoxPg84_CheckedChanged(object sender, EventArgs e)
+    {
+        if (checkBoxPg84.Checked == true)
+        {
+            pictureBox62.Visible = true;
+            pictureBox63.Visible = true;
+            pictureBox64.Visible = true;
+            pictureBox65.Visible = true;
+            addXpEarned(100);
+        }
+        else
+        {
+            pictureBox62.Visible = false;
+            pictureBox63.Visible = false;
+            pictureBox64.Visible = false;
+            pictureBox65.Visible = false;
+            subtractXpEarned(100);
+        }
+    }
+
+    private void checkBoxPg85_CheckedChanged(object sender, EventArgs e)
+    {
+        if (checkBoxPg85.Checked == true)
+        {
+            pictureBox66.Visible = true;
+            pictureBox67.Visible = true;
+            pictureBox68.Visible = true;
+            pictureBox69.Visible = true;
+            addXpEarned(100);
+        }
+        else
+        {
+            pictureBox66.Visible = false;
+            pictureBox67.Visible = false;
+            pictureBox68.Visible = false;
+            pictureBox69.Visible = false;
             subtractXpEarned(100);
         }
     }
