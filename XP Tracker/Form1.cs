@@ -575,7 +575,7 @@ public partial class Form1 : Form
         else
         {
             pictureBox84.Visible = false;
-            subtractXpEarned(100);
+            subtractXpEarned(25);
         }
     }
 
